@@ -1,8 +1,3 @@
-.checksContainer h3{
-    text-align: center;
-    margin: 1.5em 0;
-    font-size: 2em;
-}
 .checksContainer section{
     display: flex;
     flex-direction: row;
