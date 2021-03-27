@@ -1,0 +1,7 @@
+.badgeContainer{
+    border: 1px solid #65cfba;
+    background-color: rgba(101, 207, 186, .2);
+}
+.badgeContainer span{
+    color: var(--text);
+}

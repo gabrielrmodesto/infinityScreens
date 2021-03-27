@@ -4,6 +4,7 @@ import styles from '../styles/pages/ComoPagar.module.css';
 import CollapseCard from '../components/CollapseCard';
 import Buttons from '../components/Buttons';
 import Header from '../components/Header'; 
+import Badge from '../components/Badge';
 
 const ComoPagar: React.FC = () => {
   return (
@@ -14,8 +15,11 @@ const ComoPagar: React.FC = () => {
       <Header />
       <h3>Como deseja pagar?</h3>
       <CollapseCard idCollapse={1} collapseTitle="Mensal" collapseContent={['R$ 40,00','Por mês']} />
-      <CollapseCard idCollapse={2} collapseTitle="Trimestral" collapseContent={['R$ 40,00','Por mês']} />
-      <CollapseCard idCollapse={3} collapseTitle="Anual" collapseContent={['R$ 40,00','Por mês']} />
+      <CollapseCard idCollapse={2} collapseTitle="Trimestral" collapseContent={['R$ 90,00','Por trimestre']} />
+      <CollapseCard idCollapse={3} collapseTitle="Anual" collapseContent={['R$ 100,00','Por ano']}>
+        <Badge text="Example" />
+      </CollapseCard>
+      
       <Buttons back="/personalizar" nextScreen="/resumo" textButton="Assinar" />
     </section>
   );
