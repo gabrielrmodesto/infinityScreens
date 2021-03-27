@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Buttons from '../components/Buttons';
 import Header from '../components/Header';
 import styles from '../styles/pages/Home.module.css';
 
@@ -9,6 +10,7 @@ function Home() {
         <title>Infinity</title>
       </Head>
       <Header />
+      <Buttons nextScreen="/personalizar" textButton="Continuar" back="" />
     </div>
   )
 }
