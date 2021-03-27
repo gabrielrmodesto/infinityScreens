@@ -1,0 +1,18 @@
+.checksContainer h3{
+    text-align: center;
+    margin: 1.5em 0;
+    font-size: 2em;
+}
+.checksContainer section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.2em;
+    color: var(--black);
+    margin: 1em 0 0 2em;
+}
+.checksContainer section input{
+    margin-right: 1em;
+    width: 10px;
+}
