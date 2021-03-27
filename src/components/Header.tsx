@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className={styles.headerContainer}>
       <img src="icons/menu.svg" alt="Menu bar"/>
-      <h3>Infinity</h3>
+      <h2>Infinity</h2>
     </header>
   );
 }
