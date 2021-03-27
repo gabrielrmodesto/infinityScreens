@@ -1,0 +1,14 @@
+.headerContainer{
+    background-color: var(--purple);
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em 0.5em;
+}
+.headerContainer h3{
+    color: var(--white);
+    margin-left: 1em;
+}
