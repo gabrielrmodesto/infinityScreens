@@ -1,0 +1,10 @@
+.paymentContainer ul {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+.paymentContainer ul li:first-child {
+  color: var(--black);
+  font-weight: 700;
+  font-size: 1.9em;
+}

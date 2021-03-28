@@ -1,3 +1,6 @@
+.checksContainer div{
+    margin: 3em 0;
+}
 .checksContainer section{
     display: flex;
     flex-direction: row;
@@ -9,5 +12,10 @@
 }
 .checksContainer section input{
     margin-right: 1em;
-    width: 10px;
+    width: 20px;
+    height: 20px;
+}
+.checksContainer span{
+    margin-left: 2em;
+    font-size: 1.5em;
 }
