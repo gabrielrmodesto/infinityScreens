@@ -25,6 +25,7 @@ const CollapseCard: React.FC<PropsCollapse> = (collapseProps) => {
                             <li>{collapseProps.collapseContent[1]}</li>
                             <li>{collapseProps.collapseContent[2]}</li>
                         </ul>
+                        {collapseProps.children}
                     </div>
                 </div>
             </div>

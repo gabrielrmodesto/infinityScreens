@@ -15,9 +15,11 @@ const ComoPagar: React.FC = () => {
       <Header />
       <h3>Como deseja pagar?</h3>
       <CollapseCard idCollapse={1} collapseTitle="Mensal" collapseContent={['R$ 40,00','Por mês']} />
-      <CollapseCard idCollapse={2} collapseTitle="Trimestral" collapseContent={['R$ 90,00','Por trimestre']} />
+      <CollapseCard idCollapse={2} collapseTitle="Trimestral" collapseContent={['R$ 90,00','Por trimestre']}>
+        <Badge text="Economize R$ 30,00" />
+      </CollapseCard>
       <CollapseCard idCollapse={3} collapseTitle="Anual" collapseContent={['R$ 100,00','Por ano']}>
-        <Badge text="Example" />
+        <Badge text="Economize R$ 380,00" />
       </CollapseCard>
       
       <Buttons back="/personalizar" nextScreen="/resumo" textButton="Assinar" />
