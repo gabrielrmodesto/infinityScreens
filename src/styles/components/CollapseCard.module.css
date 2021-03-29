@@ -10,7 +10,7 @@
 .wrapCollabsible {
 	margin: 1.2rem 0;
 	width: 90%;
-	border: 1px solid var(--gray);
+	background-color: var(--white);
 	border-radius: 5px;
 }
 .lblToggle {
@@ -61,4 +61,50 @@
 .contentInner ul li {
 	font-size: 1.2em;
 	margin: 0.5em 0;
+}
+.labelContainerCheck{
+	display: block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.labelContainerCheck input{
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+.checkmark{
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	border: 1px solid var(--shadow);
+}
+.labelContainerCheck input:checked ~ .checkmark{
+	background-color: var(--purple);
+}
+.checkmark:after{
+	content: "";
+	position: absolute;
+	display: none;
+}
+.labelContainerCheck input:checked ~ .checkmark:after{
+	display: block;
+}
+.labelContainerCheck .checkmark:after{
+	-webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.collapsibleContainer label{
+	display: grid;
+	grid-template-columns: 2em 8em;
+	align-items: center;
 }

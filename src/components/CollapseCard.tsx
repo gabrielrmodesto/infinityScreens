@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ChangeEvent, useState } from 'react';
 import styles from '../styles/components/CollapseCard.module.css';
 
 interface PropsCollapse {
@@ -20,15 +20,14 @@ const CollapseCard: React.FC<PropsCollapse> = (collapseProps) => {
 					htmlFor={`${collapseProps.idCollapse}-collapsible`}
 					className={styles.lblToggle}
 				>
-					<input
-						type="radio"
-						className="radioButton"
-						name={`${collapseProps.idCollapse}-collapsible-radio`}
-						id={`${collapseProps.idCollapse}-collapsible-radio`}
-					/>
-					<label
-						htmlFor={`${collapseProps.idCollapse}-collapsible-radio`}
-					></label>
+					<label htmlFor={`${collapseProps.idCollapse}-collapsible-radio`} className={styles.labelContainerCheck}>
+						<input
+							type="radio"
+							name={`${collapseProps.idCollapse}-collapsible-radio`}
+							id={`${collapseProps.idCollapse}-collapsible-radio`}
+						/>
+						<span className={styles.checkmark}></span>
+					</label>
 					&nbsp;{collapseProps.collapseTitle}
 				</label>
 				<div className={styles.collapsibleContent}>

@@ -25,3 +25,8 @@
 	margin-left: 2em;
 	font-size: 1.5em;
 }
+.checksContainer small{
+	margin-left: 4em;
+	color: var(--black);
+	text-decoration: underline;
+}

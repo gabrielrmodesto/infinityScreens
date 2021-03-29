@@ -36,13 +36,13 @@ const Personalizar: React.FC = () => {
 						</section>
 					))}
 				</div>
+				<small>Selecione ao menos um benefício para prosseguir</small>
 				{value > 0 && (
 					<span>
 						<strong>Valor Parcial: </strong>R$ {value},00
 					</span>
 				)}
 			</main>
-
 			<footer>
 				<Buttons nextScreen="/como_pagar" back="/" textButton="Continuar" />
 			</footer>
