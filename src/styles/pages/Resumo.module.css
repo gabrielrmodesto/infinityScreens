@@ -1,8 +1,9 @@
 .resumoContainer{
+    display: flex;
+    flex-direction: column;
     background: var(--background);
     height: 100vh;
 }
-
 .resumoContainer section{
     display: flex;
     flex-direction: row;

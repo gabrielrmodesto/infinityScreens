@@ -48,9 +48,9 @@ function Home() {
             }
           />
         </main>
-      <footer className={styles.footer}>
-        <Buttons nextScreen="/personalizar" textButton="Continuar" back="" />
-      </footer>
+        <footer className={styles.footer}>
+          <Buttons nextScreen="/personalizar" textButton="Continuar" back="" />
+        </footer>
       </div>
     </>
   )

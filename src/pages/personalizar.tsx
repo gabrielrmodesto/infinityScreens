@@ -11,7 +11,7 @@ const Personalizar: React.FC = () => {
 
   function checkClicked(event: { target: { checked: any; }; }) {
     var checked = event.target.checked;
-    if(checked === true) setValue(value + 10);
+    if (checked === true) setValue(value + 10);
     else setValue(value - 10);
   }
   return (
@@ -20,23 +20,24 @@ const Personalizar: React.FC = () => {
         <title>Infinity - Personalizável</title>
       </Head>
       <Header />
-      <h3>Personalize seu plano</h3>
-      <div>
+      <main>
+        <h3>Personalize seu plano</h3>
+        <div>
+          {BenefitsArray.map((item) => (
+            <section key={item}>
+              <>
+                <input type="checkbox" name="itemList" id="itemList" onChange={checkClicked} />
+                <label htmlFor="itemList">{item}</label>
+              </>
+            </section>
+          ))}
+        </div>
+        {value > 0 && (
+          <span><strong>Valor Parcial: </strong>R$ {value},00</span>
+        )}
+      </main>
 
-        {BenefitsArray.map((item) => (
-          <section key={item}>
-            <>
-              <input type="checkbox" name="itemList" id="itemList" defaultChecked={false} onChange={checkClicked} />
-              <label htmlFor="itemList">{item}</label>
-            </>
-          </section>
-        ))}
-      </div>
-      {value > 0 && (
-        <span><strong>Valor Parcial: </strong>R$ {value},00</span>
-      )}
       <footer>
-
         <Buttons nextScreen="/como_pagar" back="/" textButton="Continuar" />
       </footer>
     </div>

@@ -12,7 +12,7 @@ const Buttons: React.FC<PropsButtons> = (propsBtn) => {
     return (
         <div className={styles.btnContainer}>
             <Link href={propsBtn.nextScreen}>
-                <button type="button">
+                <button type="submit">
                     {propsBtn.textButton}
                 </button>
             </Link>

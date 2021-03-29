@@ -12,18 +12,19 @@ const Resumo: React.FC = () => {
         <title>Infinity - Resumo</title>
       </Head>
       <Header />
-      <h3>Resumo do plano escolhido</h3>
-
-      {BenefitsOfPlan.map((item) => (
-        <section key={item}>
-          <img src="icons/confirm.svg" alt="" />
-          <span>{item}</span>
-        </section>
-      ))}
-      <p>
-        <span><strong>Duração do Plano:</strong> Anual</span>
-        <span><strong>Valor Mensal: </strong>R$ 30,00</span>
-      </p>
+      <main>
+        <h3>Resumo do plano escolhido</h3>
+        {BenefitsOfPlan.map((item) => (
+          <section key={item}>
+            <img src="icons/confirm.svg" alt="" />
+            <span>{item}</span>
+          </section>
+        ))}
+        <p>
+          <span><strong>Duração do Plano:</strong> Anual</span>
+          <span><strong>Valor Mensal: </strong>R$ 30,00</span>
+        </p>
+      </main>
       <footer>
         <Buttons back="/como_pagar" nextScreen="/" textButton="Ir às compras" />
       </footer>

@@ -1,4 +1,6 @@
 .paymentContainer{
+  display: flex;
+    flex-direction: column;
   background: var(--background);
   height: 100vh;
 }

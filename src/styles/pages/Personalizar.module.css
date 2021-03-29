@@ -1,9 +1,8 @@
 .checksContainer {
+  display: flex;
+  flex-direction: column;
   background: var(--background);
   height: 100vh;
-}
-.checksContainer div {
-  margin: 3em 0;
 }
 .checksContainer section {
   display: flex;
