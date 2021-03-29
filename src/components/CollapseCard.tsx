@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useState } from 'react';
+import React from 'react';
 import styles from '../styles/components/CollapseCard.module.css';
 
 interface PropsCollapse {
@@ -22,7 +22,7 @@ const CollapseCard: React.FC<PropsCollapse> = (collapseProps) => {
 				>
 					<label htmlFor={`${collapseProps.idCollapse}-collapsible-radio`} className={styles.labelContainerCheck}>
 						<input
-							type="radio"
+							type="checkbox"
 							name={`${collapseProps.idCollapse}-collapsible-radio`}
 							id={`${collapseProps.idCollapse}-collapsible-radio`}
 						/>
