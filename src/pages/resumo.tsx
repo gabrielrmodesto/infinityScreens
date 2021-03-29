@@ -15,7 +15,7 @@ const Resumo: React.FC = () => {
       <h3>Resumo do plano escolhido</h3>
 
       {BenefitsOfPlan.map((item) => (
-        <section>
+        <section key={item}>
           <img src="icons/confirm.svg" alt="" />
           <span>{item}</span>
         </section>
@@ -24,7 +24,9 @@ const Resumo: React.FC = () => {
         <span><strong>Duração do Plano:</strong> Anual</span>
         <span><strong>Valor Mensal: </strong>R$ 30,00</span>
       </p>
-      <Buttons back="/como_pagar" nextScreen="/" textButton="Ir às compras" />
+      <footer>
+        <Buttons back="/como_pagar" nextScreen="/" textButton="Ir às compras" />
+      </footer>
     </div>
   );
 }

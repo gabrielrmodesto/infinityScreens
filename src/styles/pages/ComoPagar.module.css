@@ -1,5 +1,6 @@
 .paymentContainer{
   background: var(--background);
+  height: 100vh;
 }
 .paymentContainer ul {
   display: flex;

@@ -32,7 +32,6 @@
 }
 body {
   color: var(--text);
-  height: 100vh;
   max-width: 414px;
   margin: 0 auto;
   display: flex;
@@ -61,4 +60,8 @@ h3{
   text-align: center;
   margin: 1.5em 1em;
   font-size: 2em;
+}
+footer{
+  position: sticky;
+  
 }

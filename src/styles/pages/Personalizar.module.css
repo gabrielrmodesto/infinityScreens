@@ -1,5 +1,6 @@
 .checksContainer {
   background: var(--background);
+  height: 100vh;
 }
 .checksContainer div {
   margin: 3em 0;
