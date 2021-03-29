@@ -1,28 +1,28 @@
-.resumoContainer{
-    display: flex;
-    flex-direction: column;
-    background: var(--background);
-    height: 100vh;
+.resumoContainer {
+	display: flex;
+	flex-direction: column;
+	background: var(--background);
+	height: 100vh;
 }
-.resumoContainer section{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 1em 0 0 2em;
+.resumoContainer section {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 1em 0 0 2em;
 }
-.resumoContainer section span{
-    font-size: 1.2em;
-    margin-left: 1em;
+.resumoContainer section span {
+	font-size: 1.2em;
+	margin-left: 1em;
 }
-.resumoContainer p{
-    margin: 2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+.resumoContainer p {
+	margin: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
 }
-.resumoContainer p span{
-    font-size: 1.3em;
-    margin-top: 1em;
+.resumoContainer p span {
+	font-size: 1.3em;
+	margin-top: 1em;
 }

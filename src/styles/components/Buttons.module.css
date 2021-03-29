@@ -1,22 +1,22 @@
-.btnContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.btnContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-.btnContainer button{
-    width: 90%;
-    height: 2em;
-    border-radius: 5px;
-    font-size: 1.2em;
-    font-weight: 400;
+.btnContainer button {
+	width: 90%;
+	height: 2em;
+	border-radius: 5px;
+	font-size: 1.2em;
+	font-weight: 400;
 }
-.btnContainer button:first-child{
-    background-color: var(--purple);
-    color: var(--white);
-    margin-bottom: 1%;
+.btnContainer button:first-child {
+	background-color: var(--purple);
+	color: var(--white);
+	margin-bottom: 1%;
 }
-.btnContainer button:last-child{
-    background-color: var(--gray);
-    color: var(--black);
+.btnContainer button:last-child {
+	background-color: var(--gray);
+	color: var(--black);
 }

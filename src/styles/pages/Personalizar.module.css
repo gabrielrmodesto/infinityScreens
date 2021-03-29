@@ -1,24 +1,27 @@
 .checksContainer {
-  display: flex;
-  flex-direction: column;
-  background: var(--background);
-  height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background: var(--background);
+	height: 100vh;
+}
+.checksContainer main div {
+	margin-bottom: 3em;
 }
 .checksContainer section {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  font-size: 1.2em;
-  color: var(--black);
-  margin: 1em 0 0 2em;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 1.2em;
+	color: var(--black);
+	margin: 1em 0 0 2em;
 }
 .checksContainer section input {
-  margin-right: 1em;
-  width: 20px;
-  height: 20px;
+	margin-right: 1em;
+	width: 20px;
+	height: 20px;
 }
 .checksContainer span {
-  margin-left: 2em;
-  font-size: 1.5em;
+	margin-left: 2em;
+	font-size: 1.5em;
 }
