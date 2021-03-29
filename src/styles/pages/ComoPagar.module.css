@@ -1,3 +1,6 @@
+.paymentContainer{
+  background: var(--background);
+}
 .paymentContainer ul {
   display: flex;
   flex-direction: column;

@@ -1,3 +1,6 @@
 .footer{
     margin-top:60%;
 }
+.container{
+    background: var(--background);
+}

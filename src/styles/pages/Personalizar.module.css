@@ -1,21 +1,24 @@
-.checksContainer div{
-    margin: 3em 0;
+.checksContainer {
+  background: var(--background);
 }
-.checksContainer section{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: 1.2em;
-    color: var(--black);
-    margin: 1em 0 0 2em;
+.checksContainer div {
+  margin: 3em 0;
 }
-.checksContainer section input{
-    margin-right: 1em;
-    width: 20px;
-    height: 20px;
+.checksContainer section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.2em;
+  color: var(--black);
+  margin: 1em 0 0 2em;
 }
-.checksContainer span{
-    margin-left: 2em;
-    font-size: 1.5em;
+.checksContainer section input {
+  margin-right: 1em;
+  width: 20px;
+  height: 20px;
+}
+.checksContainer span {
+  margin-left: 2em;
+  font-size: 1.5em;
 }

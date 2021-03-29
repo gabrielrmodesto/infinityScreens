@@ -1,5 +1,5 @@
 .resumoContainer{
-    background-color: var(--white);
+    background: var(--background);
 }
 
 .resumoContainer section{
