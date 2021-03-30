@@ -26,6 +26,7 @@
 	font-size: 1.5em;
 }
 .checksContainer small{
+	margin-top: 2em;
 	margin-left: 4em;
 	color: var(--black);
 	text-decoration: underline;
