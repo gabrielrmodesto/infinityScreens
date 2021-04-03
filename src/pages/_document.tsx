@@ -1,11 +1,15 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document';
 
 export default class MyDocument extends Document {
-	render() {
+	render() : JSX.Element {
 		return (
 			<Html lang="pt-br">
 				<Head>
-					<meta charSet="utf-8" />
+					<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+					<meta name="description" content="Infinity marketplace é um site de estudo para especialização em engenharia de software da UNICAMP 2021"/>
+					<meta name="keywords" content="Infinity, Marketplace, UNICAMP, Engenharia de Software, Especialização, 2021, NextJS, ReactJS, Mobile, Gabriel Modesto"/>
+					<meta http-equiv="X-UA-Compatible" content="IE=7,ie=edge"/>
+					<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 					<link
 						rel="shortcut icon"
 						href="icons/infinite.svg"
