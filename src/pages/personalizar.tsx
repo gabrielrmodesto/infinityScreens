@@ -36,7 +36,7 @@ const Personalizar: React.FC = () => {
 						</section>
 					))}
 				</div>
-				<small>Selecione ao menos um benefício para prosseguir</small>
+				<small>Selecione ao menos um benefício para prosseguir</small><br/><br/>
 				{value > 0 && (
 					<span>
 						<strong>Valor Parcial: </strong>R$ {value},00
