@@ -15,6 +15,7 @@ const ComoPagar: React.FC = () => {
 			<Header />
 			<main>
 				<h3>Como deseja pagar?</h3>
+
 				<CollapseCard
 					idCollapse={1}
 					collapseTitle="Mensal"
